@@ -1,5 +1,5 @@
-settore,area_attesa,n_settore,pct_area_nel_settore,n_altri_settori,pct_area_negli_altri,p_fisher
-Studi legali e notarili,Legale (tutte le sottovoci),113,7.08,4268,8.13,0.861
-Informatica e attività connesse,Sistemi Informativi,106,2.83,4275,3.13,1.0
-Revisione contabile,"Amministrazione, Finanza e Controllo",103,44.66,4278,39.2,0.263
-"Studi commercialisti, tributaristi ed esperti contabili","Amministrazione, Finanza e Controllo",125,34.4,4256,39.47,0.266
+settore,area_attesa,k_settore,n_settore,pct_nel_settore,k_altri,n_altri,pct_negli_altri,p_fisher
+Studi legali e notarili,Legale (tutte le sottovoci),8,113,7.08,347,4268,8.13,0.861
+Informatica e attività connesse,Sistemi Informativi,3,106,2.83,134,4275,3.13,1.0
+Revisione contabile,"Amministrazione, Finanza e Controllo",46,103,44.66,1677,4278,39.2,0.263
+"Studi commercialisti, tributaristi ed esperti contabili","Amministrazione, Finanza e Controllo",43,125,34.4,1680,4256,39.47,0.266

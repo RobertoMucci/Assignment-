@@ -1,5 +1,5 @@
-colonna,n_etichette,n_righe_mancanti,n_righe_spazi_extra,etichette_con_spazi,varianti_stessa_chiave,n_categorie_n_lt_30,n_righe_in_categorie_n_lt_30
-NAZIONE,64,3,0,[],[],54,294
-SETTORE AZIENDALE,38,0,131,['ONG ed Enti No Profit '],[],0,0
-AREA FUNZIONALE,22,1,0,[],[],7,137
-CORSO,37,1,0,[],[],13,95
+colonna,n_etichette,n_righe_mancanti,ID_mancanti,n_righe_spazi_extra,etichette_con_spazi,varianti_stessa_chiave,n_categorie_n_lt_30,n_righe_in_categorie_n_lt_30
+NAZIONE,64,3,"['816', '1134', '2031']",0,[],[],54,294
+SETTORE AZIENDALE,38,0,[],131,['ONG ed Enti No Profit '],[],0,0
+AREA FUNZIONALE,22,1,['816'],0,[],[],7,137
+CORSO,37,1,['816'],0,[],[],13,95

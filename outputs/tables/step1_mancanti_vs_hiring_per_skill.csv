@@ -1,16 +1,16 @@
-skill,n_mancante,tasso_SI_mancante,n_presente,tasso_SI_presente,diff_punti,p_fisher,p_holm
+skill,n_NA,tasso_SI_NA,n_valida,tasso_SI_valida,diff_punti,p_fisher,p_holm
 Motivation,12,25.0,4367,57.04,-32.04,0.0375,0.4496
-Responsibility,11,27.27,4368,57.03,-29.76,0.0652,0.717
+Responsibility,11,27.27,4367,57.04,-29.77,0.0651,0.7165
 Teamwork,90,38.89,4289,57.33,-18.44,0.0005,0.0075
 Critical Thinking,127,40.94,4252,57.43,-16.49,0.0003,0.0038
 Feedback Management,12,41.67,4367,57.0,-15.33,0.383,1.0
-Entrepreneurial Mindset,153,44.44,4226,57.41,-12.97,0.002,0.0261
-Interpersonal Skills,20,45.0,4359,57.01,-12.01,0.3658,1.0
+Entrepreneurial Mindset,153,44.44,4225,57.4,-12.96,0.002,0.0261
+Interpersonal Skills,20,45.0,4358,57.0,-12.0,0.3658,1.0
 Creativity,96,47.92,4283,57.16,-9.24,0.0766,0.7659
 Time Management,22,54.55,4357,56.97,-2.42,0.8321,1.0
-Cultural Awareness,49,55.1,4330,56.97,-1.87,0.8848,1.0
+Cultural Awareness,49,55.1,4328,57.0,-1.9,0.8848,1.0
 Digital,65,56.92,4314,56.95,-0.03,1.0,1.0
-Writing,5,60.0,4374,56.95,3.05,1.0,1.0
+Writing,5,60.0,4373,56.94,3.06,1.0,1.0
 Planning,95,63.16,4284,56.82,6.34,0.2493,1.0
-Listening,3,66.67,4376,56.95,9.72,1.0,1.0
+Listening,3,66.67,4375,56.94,9.73,1.0,1.0
 Flexibility,12,66.67,4367,56.93,9.74,0.5713,1.0

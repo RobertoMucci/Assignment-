@@ -1,3 +1,4 @@
 modello,n,OR_mancante,IC95_basso,IC95_alto,p
-non aggiustato,4243,0.699,0.576,0.85,0.0003
-aggiustato per area e corso,4243,0.729,0.595,0.894,0.0024
+non aggiustato,4242,0.699,0.575,0.849,0.0003
+aggiustato per area e corso,4242,0.729,0.595,0.893,0.0023
+"aggiustato per area, corso e OVERALL",4242,0.798,0.647,0.984,0.035

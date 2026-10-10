@@ -1,4 +1,5 @@
-segmento,n_righe,n_categorie,quota_min_pct,categoria_min,quota_max_pct,categoria_max,p_chi2
-NAZIONE (Italia/estero),4379,2,10.6,ITALIA,11.1,ESTERO,0.7474
-AREA FUNZIONALE (Legale raggruppato),4336,12,5.6,"Produzione, logistica e qualità",22.9,Ricerca & Sviluppo,0.0
-CORSO,4286,24,4.3,B10,21.7,B09,0.0
+segmento,n,n_categorie,min,max,p_asintotico,p_permutazione,V_cramer
+NAZIONE (Italia/estero),4377,2,ITALIA: 10.6% (362/3402),ESTERO: 11.1% (108/975),0.6982,0.7331,0.006
+NAZIONE (opzione B),4377,11,SPAGNA: 3.0% (1/33),GRAN BRETAGNA E IRLANDA DEL NORD: 19.8% (16/81),0.1731,0.1719,0.057
+AREA FUNZIONALE (Legale raggruppato),4334,12,"Produzione, logistica e qualità: 5.6% (4/72)",Ricerca & Sviluppo: 22.9% (89/388),0.0,0.0005,0.14
+CORSO,4285,24,B10: 4.3% (5/117),B09: 21.7% (36/166),0.0,0.0005,0.131
