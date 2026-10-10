@@ -1,0 +1,19 @@
+,n_validi,n_NA,n_vuoti,n_testo_non_numerico,n_decimali,n_fuori_scala,pct_non_validi,celle_anomale
+Digital,4316,65,1,0,0,0,1.51,
+Teamwork,4291,90,1,0,0,0,2.08,
+Entrepreneurial Mindset,4227,153,1,0,0,1,3.54,ID 42: '7000'
+Critical Thinking,4254,127,1,0,0,0,2.92,
+Creativity,4285,96,1,0,0,0,2.21,
+Planning,4286,95,1,0,0,0,2.19,
+Flexibility,4369,12,1,0,0,0,0.3,
+Cultural Awareness,4330,49,1,1,0,1,1.19,ID 1: 'A'; ID 3919: '88'
+Writing,4375,5,1,0,0,1,0.16,ID 3863: '999'
+Listening,4377,3,1,1,0,0,0.11,ID 4378: 'BBBB'
+Time Management,4359,22,1,0,0,0,0.52,
+Responsibility,4369,11,1,0,0,1,0.3,ID 73: '55'
+Motivation,4369,12,1,0,0,0,0.3,
+Feedback Management,4369,12,1,0,0,0,0.3,
+Interpersonal Skills,4360,20,1,1,0,0,0.5,ID 475: 'NN'
+Leadership,4381,0,1,0,0,0,0.02,
+OVERALL,4380,0,1,0,0,1,0.05,ID 3811: '100'
+TOTALE (celle),73697,772,17,3,0,5,,

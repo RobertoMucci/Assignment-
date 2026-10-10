@@ -1,0 +1,4 @@
+campione,n,spearman_rho,pearson_r,scarto_medio,scarto_mediano,pct_abs_scarto_ge_1,pct_abs_scarto_ge_2,n_abs_scarto_ge_2,n_overall_fuori_min_max_skill
+OVERALL valido e ≥1 skill valida,4380,0.862,0.919,0.099,0.062,4.27,0.21,9,10
+solo righe con 16 skill valide,3904,0.859,0.92,0.106,0.062,4.2,0.18,7,7
+"16 skill valide, escluse le piatte",3050,0.852,0.908,0.136,0.188,5.28,0.23,7,4

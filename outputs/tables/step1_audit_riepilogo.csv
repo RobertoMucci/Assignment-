@@ -1,0 +1,24 @@
+problema,colonne,n_righe,pct_sul_totale,trattamento_proposto,rischio_del_trattamento,decisione
+Testo non numerico nei voti,"Cultural Awareness, Listening, Interpersonal Skills",3,0.07,Convertire in mancante solo per quella skill,Minimo: 3 celle; il voto reale è irrecuperabile,confermato
+"Fuori scala ricodificabile come refuso (55, 88, 999, 100)","Cultural Awareness, Writing, Responsibility, OVERALL",4,0.09,"Ricodificare in 5, 8, 9, 10",Il valore reale potrebbe essere diverso (es. 999 è spesso un codice di 'mancante'),confermato
+Fuori scala non ricodificabile (7000),Entrepreneurial Mindset,1,0.02,Convertire in mancante solo per quella skill,Minimo: 1 cella,confermato
+Mancante dichiarato (N/A),"15 skill su 16 (non Leadership, non OVERALL)",470,10.73,"Mancante solo per quella skill; nessuna esclusione di riga, nessuna imputazione",Se i mancanti non sono casuali (1.6) le medie per skill possono essere distorte; n diverso tra skill,confermato
+Riga quasi vuota,"tutte tranne ID, DURATA, SETTORE",1,0.02,Escludere la riga,Nessuno rilevante: la riga non contiene valutazioni,confermato
+ID duplicato,ID,0,0.0,Nessuno,-,nessun caso
+Righe identiche su tutte le colonne tranne ID,tutte tranne ID,18,0.41,Nessuno: ID diverso = stage diverso,"Se fossero doppi inserimenti, 9 valutazioni (quasi tutte 'tutto 10') conterebbero due volte",confermato
+SETTORE AZIENDALE senza struttura plausibile (distribuzione uniforme p=0.85; nessuna coerenza con l'area),SETTORE AZIENDALE,4382,100.0,"Non usarlo come dimensione di segmentazione; al più descrittivo, dichiarando il motivo","Se il dato fosse corretto, si rinuncerebbe a una dimensione di lettura",DA DECIDERE
+NAZIONE mancante,NAZIONE,3,0.07,Mancante solo per le analisi per paese,Minimo: 3 righe (una è la riga quasi vuota),confermato
+AREA FUNZIONALE o CORSO mancante,"AREA FUNZIONALE, CORSO",1,0.02,Mancante solo per quella variabile,Nessuno: è la riga quasi vuota,confermato
+Spazio finale nell'etichetta 'ONG ed Enti No Profit ',SETTORE AZIENDALE,131,2.99,Rimuovere gli spazi iniziali/finali,"Nessuno (cosmetico, nessuna categoria si fonde)",DA DECIDERE
+Codice CORSO con formato diverso ('L'),CORSO,314,7.17,Nessuno: trattato come codice valido,"Se fosse un codice troncato, unirebbe corsi diversi",confermato
+Etichette residuali/generiche in AREA FUNZIONALE,"Attività polifunzionali, Legale - Ulteriori aree non in elenco, Generico, Altro",285,6.5,Tenere; leggerle come non interpretabili; nei confronti solo se n>=30,Contenuto eterogeneo: un risultato su queste aree non indica un'area precisa,DA DECIDERE
+Paesi con n<30 (long tail),NAZIONE (54 paesi),294,6.71,Raggruppare in 'Altri esteri' (opzione B),Gruppo eterogeneo: la media nasconde differenze tra paesi,confermato
+Corsi con n<30,CORSO (13 codici),95,2.17,"Nessun accorpamento; esclusi dai confronti tra corsi, inclusi nei totali",Nessuna informazione per questi corsi,confermato
+Aree con n<30 (dopo raggruppamento 'Legale'),"Acquisti, Generico, Altro",45,1.03,"Escluse dai confronti tra aree, incluse nei totali",Nessuna informazione per queste aree,confermato
+DURATA compatibile con una data Excel (2024),DURATA,7,0.16,Convertire in mancante,La durata reale è persa; nessuna ricostruzione possibile,confermato
+DURATA oltre 365 giorni,DURATA,9,0.21,Tenere e segnalare con un flag,Valori veri ma rari possono pesare sulle medie di durata: usare la mediana,confermato per 547 e 729; DA DECIDERE per gli altri 7
+DURATA sotto 30 giorni,DURATA,40,0.91,Tenere: plausibile per stage brevi,Nessuno,DA DECIDERE
+Hiring diverso da SI/NO ('' e 'Null'),Hiring,3,0.07,Mancante solo per le analisi su Hiring,Minimo: 3 righe,confermato
+"Mancanti non casuali: chi ha N/A ha meno Hiring, OVERALL più basso, stage più brevi; quota diversa per area e corso",15 skill con N/A,470,10.73,Nessuna imputazione; medie per skill sui valori disponibili con n riportato; confronto di sensibilità sulle sole righe complete; dichiarare il limite,"Le medie calcolate sui soli valori presenti possono risultare leggermente ottimistiche, soprattutto per le skill con più N/A",DA DECIDERE
+OVERALL distante dalla media delle skill (|scarto| ≥ 2),"OVERALL, 16 skill",9,0.21,Nessuna correzione (OVERALL è un giudizio autonomo del tutor); segnalare e verificare la robustezza,Possibili errori di compilazione non individuabili,DA DECIDERE
+Valutazioni piatte (16 skill valide e identiche),16 skill,854,19.49,Tenere (non sono errori dimostrabili); flag e analisi di sensibilità con/senza,Escluderle toglierebbe soprattutto giudizi 'tutto 10' e abbasserebbe le medie; tenerle comprime le differenze tra skill,DA DECIDERE
