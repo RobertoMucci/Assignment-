@@ -1,0 +1,25 @@
+colonna,tipo_pandas_default,tipo_diagnosticato,n_righe,n_distinti,n_vuoti,n_NA_letterale,n_numerici,token_anomali,min,max,n_fuori_1_10,n_spazi_iniziali_finali
+ID,int64,intero,4382,4382,0,0,4382,,1,4388,,0
+DURATA,int64,intero,4382,247,0,0,4382,,20,45534,,0
+NAZIONE,str,categorica (testo),4382,65,3,0,0,,,,,0
+SETTORE AZIENDALE,str,categorica (testo),4382,38,0,0,0,,,,,131
+AREA FUNZIONALE,str,categorica (testo),4382,23,1,0,0,,,,,0
+CORSO,str,categorica (testo),4382,38,1,0,0,,,,,0
+Digital,float64,"intero, atteso 1-10",4382,12,1,65,4316,,1.0,10.0,0,0
+Teamwork,float64,"intero, atteso 1-10",4382,12,1,90,4291,,1.0,10.0,0,0
+Entrepreneurial Mindset,float64,"intero, atteso 1-10",4382,13,1,153,4228,,1.0,7000.0,1,0
+Critical Thinking,float64,"intero, atteso 1-10",4382,12,1,127,4254,,1.0,10.0,0,0
+Creativity,float64,"intero, atteso 1-10",4382,12,1,96,4285,,1.0,10.0,0,0
+Planning,float64,"intero, atteso 1-10",4382,12,1,95,4286,,1.0,10.0,0,0
+Flexibility,float64,"intero, atteso 1-10",4382,12,1,12,4369,,1.0,10.0,0,0
+Cultural Awareness,str,"intero, atteso 1-10",4382,14,1,49,4331,{'A': 1},1.0,88.0,1,0
+Writing,float64,"intero, atteso 1-10",4382,13,1,5,4376,,1.0,999.0,1,0
+Listening,str,"intero, atteso 1-10",4382,12,1,3,4377,{'BBBB': 1},2.0,10.0,0,0
+Time Management,float64,"intero, atteso 1-10",4382,12,1,22,4359,,1.0,10.0,0,0
+Responsibility,float64,"intero, atteso 1-10",4382,13,1,11,4370,,1.0,55.0,1,0
+Motivation,float64,"intero, atteso 1-10",4382,12,1,12,4369,,1.0,10.0,0,0
+Feedback Management,float64,"intero, atteso 1-10",4382,12,1,12,4369,,1.0,10.0,0,0
+Interpersonal Skills,str,"intero, atteso 1-10",4382,13,1,20,4360,{'NN': 1},1.0,10.0,0,0
+Leadership,float64,"intero, atteso 1-10",4382,11,1,0,4381,,1.0,10.0,0,0
+OVERALL,float64,"intero, atteso 1-10",4382,12,1,0,4381,,1.0,100.0,1,0
+Hiring,str,categorica (testo),4382,4,2,0,0,,,,,0
